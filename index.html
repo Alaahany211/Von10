@@ -864,6 +864,7 @@ main.main-content-wrapper { padding-top: var(--header-height); }
     padding: 1.2rem;
     border-top: 1px solid var(--gold-border);
     background: var(--surface-alt);
+    padding-bottom: 30px;
 }
 .total {
     display: flex;
@@ -1148,7 +1149,7 @@ body.no-scroll { overflow: hidden; }
 
     /* شبكة المنتجات للموبايل — عرض أصغر + توسيط */
     .products-grid {
-        grid-template-columns: repeat(auto-fill, var(--card-w-sm));
+        grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
         gap: 0.7rem;
         padding: 0 0.4rem;
     }
